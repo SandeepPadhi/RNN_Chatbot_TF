@@ -1,0 +1,5 @@
+bazel-bin/tensorflow/python/tools/freeze_graph\
+    --input_graph=/home/sandeep/The Best ChatBot/makeproto/tfdroid.pbtxt \
+    --input_checkpoint=/home/sandeep/The Best ChatBot/makeproto/checkpoints/tfdroid.ckpt \
+    --input_binary=true --output_graph=/home/sandeep/The Best ChatBot/makeproto/frozen_proto_tfdroid.pb \
+    --output_node_names=O
